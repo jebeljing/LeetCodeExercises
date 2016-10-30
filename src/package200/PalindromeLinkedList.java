@@ -9,18 +9,25 @@ package package200;
 public class PalindromeLinkedList {
     public boolean isPalindrome(ListNode head) {
         boolean result = true;
+        // Check whether we have work to do
         if (head == null || head.next == null) return true;
 
         ListNode fast = head, slow = head, reverseHead = null;
         while (fast != null && fast.next != null) {
+            // Move fast pointer two nodes at a time
             fast = fast.next.next;
+            // Move slow pointer one node at a time, reversing the first half
+            // of the list along the way
             ListNode temp = slow.next;
             slow.next = reverseHead;
             reverseHead = slow;
             slow = temp;
         }
         ListNode mid = slow;
+        // Move slow pointer one node forward if the length of the list is odd
         while(fast != null) slow = slow.next;
+        // Navigate to the ends of the list, comparing values for equality
+        // and restoring the reversed half of the list
         while(slow != null) {
             if (slow.val != reverseHead.val) return false;
             ListNode temp = reverseHead.next;
