@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/ExcelSheetColumnTitle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/ExcelSheetColumnNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/MajorityElement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -35,11 +36,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExcelSheetColumnTitle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExcelSheetColumnTitle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package100/ExcelSheetColumnTitle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="89">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MajorityElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/package100/MajorityElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelSheetColumnNumber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package100/ExcelSheetColumnNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -78,6 +101,8 @@
         <option value="$PROJECT_DIR$/src/package100/IntersectionOfTwoLinkedLists.java" />
         <option value="$PROJECT_DIR$/src/package100/CompareVersionNumbers.java" />
         <option value="$PROJECT_DIR$/src/package100/ExcelSheetColumnTitle.java" />
+        <option value="$PROJECT_DIR$/src/package100/MajorityElement.java" />
+        <option value="$PROJECT_DIR$/src/package100/ExcelSheetColumnNumber.java" />
       </list>
     </option>
   </component>
@@ -88,8 +113,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
-    <option name="y" value="25" />
+    <option name="x" value="556" />
+    <option name="y" value="32" />
     <option name="width" value="1280" />
     <option name="height" value="733" />
   </component>
@@ -685,7 +710,7 @@
       <workItem from="1478481764085" duration="1376000" />
       <workItem from="1478659240797" duration="2571000" />
       <workItem from="1478752207780" duration="418000" />
-      <workItem from="1478840448371" duration="1079000" />
+      <workItem from="1478840448371" duration="1779000" />
     </task>
     <task id="LOCAL-00001" summary="BinaryTreePaths">
       <created>1478143230238</created>
@@ -743,14 +768,21 @@
       <option name="project" value="LOCAL" />
       <updated>1479014596157</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="168. Excel Sheet Column Title">
+      <created>1479018039864</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1479018039864</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8699000" />
+    <option name="totallyTimeSpent" value="9399000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="25" width="1280" height="733" extended-state="0" />
+    <frame x="556" y="32" width="1280" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -764,7 +796,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -800,7 +832,8 @@
     <MESSAGE value="155. Min Stack" />
     <MESSAGE value="160. Intersection of Two Linked Lists" />
     <MESSAGE value="165. Compare Version Numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="165. Compare Version Numbers" />
+    <MESSAGE value="168. Excel Sheet Column Title" />
+    <option name="LAST_COMMIT_MESSAGE" value="168. Excel Sheet Column Title" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1049,7 +1082,7 @@
         <state relative-caret-position="570">
           <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1064,8 +1097,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/ExcelSheetColumnTitle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="89">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package100/MajorityElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package100/ExcelSheetColumnNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding />
         </state>
       </provider>
