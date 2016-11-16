@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/FactorialTrailingZeroes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/RotateArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -67,11 +67,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FactorialTrailingZeroes.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FactorialTrailingZeroes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package100/FactorialTrailingZeroes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RotateArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package100/RotateArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -113,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/package100/MajorityElement.java" />
         <option value="$PROJECT_DIR$/src/package100/ExcelSheetColumnNumber.java" />
         <option value="$PROJECT_DIR$/src/package100/FactorialTrailingZeroes.java" />
+        <option value="$PROJECT_DIR$/src/package100/RotateArray.java" />
       </list>
     </option>
   </component>
@@ -720,7 +731,7 @@
       <workItem from="1478481764085" duration="1376000" />
       <workItem from="1478659240797" duration="2571000" />
       <workItem from="1478752207780" duration="418000" />
-      <workItem from="1478840448371" duration="2261000" />
+      <workItem from="1478840448371" duration="2843000" />
     </task>
     <task id="LOCAL-00001" summary="BinaryTreePaths">
       <created>1478143230238</created>
@@ -792,11 +803,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479184684690</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="172. Factorial Trailing Zeroes.">
+      <created>1479271188206</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1479271188206</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9881000" />
+    <option name="totallyTimeSpent" value="10463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="556" y="32" width="1280" height="733" extended-state="0" />
@@ -851,7 +869,8 @@
     <MESSAGE value="165. Compare Version Numbers" />
     <MESSAGE value="168. Excel Sheet Column Title" />
     <MESSAGE value="171. Excel Sheet Column Number" />
-    <option name="LAST_COMMIT_MESSAGE" value="171. Excel Sheet Column Number" />
+    <MESSAGE value="172. Factorial Trailing Zeroes." />
+    <option name="LAST_COMMIT_MESSAGE" value="172. Factorial Trailing Zeroes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1141,8 +1160,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/FactorialTrailingZeroes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package100/RotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding />
         </state>
       </provider>
