@@ -1,5 +1,7 @@
 package package200;
 
+import base.TreeNode;
+
 /**
  * Created by Jebeljing on 11/6/2016.
  * 235. Lowest Common Ancestor of a Binary Search Tree
@@ -33,14 +35,5 @@ public class LCAOfBST {
         } else {
             return root;
         }
-    }
-
-
-    // Definition for a binary tree node
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x;}
     }
 }

@@ -1,5 +1,7 @@
 package package200;
 
+import base.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,14 +31,5 @@ public class BinaryTreePaths {
         if (root.left == null && root.right == null) result.add(path + root.val);
         if (root.left != null) bTreePathsHelper(root.left, path + root.val + "->", result);
         if (root.right != null) bTreePathsHelper(root.right, path + root.val + "->", result);
-    }
-
-    private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) {
-            val = x;
-        }
     }
 }

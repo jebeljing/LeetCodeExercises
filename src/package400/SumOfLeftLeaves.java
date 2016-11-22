@@ -1,5 +1,7 @@
 package package400;
 
+import base.TreeNode;
+
 import java.util.Stack;
 
 /**
@@ -65,19 +67,11 @@ public class SumOfLeftLeaves {
                 }
             }
             if (node.right != null) {
-                if (node.right.left != null ||  node.right.right != null) {
+                if (node.right.left != null || node.right.right != null) {
                     stack.push(node.right);
                 }
             }
         }
         return result;
-    }
-
-    // Definition for a binary tree node.
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x;}
     }
 }
