@@ -1,5 +1,7 @@
 package package200;
 
+import base.ListNode;
+
 /**
  * Created by jingshanyin on 10/30/16.
  * 234. Palindrome Linked List
@@ -36,14 +38,5 @@ public class PalindromeLinkedList {
             reverseHead = temp;
         }
         return true;
-    }
-
-    /**
-     * Definition for singly-linked list
-     */
-    private class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
     }
 }

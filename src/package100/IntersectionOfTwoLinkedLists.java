@@ -1,5 +1,7 @@
 package package100;
 
+import base.ListNode;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -43,15 +45,5 @@ public class IntersectionOfTwoLinkedLists {
         if (headB != null) return headB;
         return null;
 
-    }
-
-    //Definition for singly-linked list.
-    class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
     }
 }
