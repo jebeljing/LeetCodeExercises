@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/LongestPalindrome.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/AddStrings.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,14 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LongestPalindrome.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package400/LongestPalindrome.java">
+      <file leaf-file-name="AddStrings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package400/AddStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/package300/PowerOfThree.java" />
         <option value="$PROJECT_DIR$/src/package300/PowerOfFour.java" />
         <option value="$PROJECT_DIR$/src/package400/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/package400/AddStrings.java" />
       </list>
     </option>
   </component>
@@ -104,8 +103,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="565" />
-    <option name="y" value="35" />
+    <option name="x" value="639" />
+    <option name="y" value="37" />
     <option name="width" value="1280" />
     <option name="height" value="733" />
   </component>
@@ -690,7 +689,7 @@
       <workItem from="1479443410632" duration="4109000" />
       <workItem from="1479783598812" duration="2316000" />
       <workItem from="1479872315258" duration="1119000" />
-      <workItem from="1479877212289" duration="644000" />
+      <workItem from="1479877212289" duration="1077000" />
     </task>
     <task id="LOCAL-00001" summary="BinaryTreePaths">
       <created>1478143230238</created>
@@ -853,14 +852,21 @@
       <option name="project" value="LOCAL" />
       <updated>1479877634569</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="409. Longest Palindrome">
+      <created>1479937854771</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1479937854771</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20157000" />
+    <option name="totallyTimeSpent" value="20590000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="565" y="35" width="1280" height="733" extended-state="0" />
+    <frame x="639" y="37" width="1280" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -926,7 +932,8 @@
     <MESSAGE value="141. Linked List Cycle&#10;" />
     <MESSAGE value="326. Power of Three" />
     <MESSAGE value="342. Power of Four" />
-    <option name="LAST_COMMIT_MESSAGE" value="342. Power of Four" />
+    <MESSAGE value="409. Longest Palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="409. Longest Palindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -937,13 +944,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package200/AddDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package200/BinaryTreePaths.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1286,6 +1286,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package400/AddStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
