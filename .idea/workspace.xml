@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/RepeatedSubstringPattern.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -107,7 +107,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BestTimeToBuyAndSellStock.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BestTimeToBuyAndSellStock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
@@ -117,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuessGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/GuessGame.java">
+      <file leaf-file-name="RepeatedSubstringPattern.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package400/RepeatedSubstringPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="68">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -196,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/package100/BinaryTreeLevelOrderTraversalII.java" />
         <option value="$PROJECT_DIR$/src/package400/ConvertANumberToHexadecimal.java" />
         <option value="$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStock.java" />
+        <option value="$PROJECT_DIR$/src/package400/RepeatedSubstringPattern.java" />
       </list>
     </option>
   </component>
@@ -852,7 +853,7 @@
       <workItem from="1479872315258" duration="1119000" />
       <workItem from="1479877212289" duration="1977000" />
       <workItem from="1480184062675" duration="7593000" />
-      <workItem from="1480269317268" duration="1388000" />
+      <workItem from="1480269317268" duration="2236000" />
     </task>
     <task id="LOCAL-00001" summary="BinaryTreePaths">
       <created>1478143230238</created>
@@ -1085,11 +1086,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480269987274</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="121. Best Time to Buy and Sell Stock">
+      <created>1480270946219</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1480270946219</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30471000" />
+    <option name="totallyTimeSpent" value="31319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1134,7 +1142,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="171. Excel Sheet Column Number" />
     <MESSAGE value="172. Factorial Trailing Zeroes." />
     <MESSAGE value="136. Single Number&#10;12. Fizz Buzz" />
     <MESSAGE value="371. Sum of Two Integers&#10;" />
@@ -1159,7 +1166,8 @@
     <MESSAGE value="441. Arranging COins" />
     <MESSAGE value="107. BInary Tree Level Order Traversal II" />
     <MESSAGE value="405. COnvert a Number to Hexadecimal" />
-    <option name="LAST_COMMIT_MESSAGE" value="405. COnvert a Number to Hexadecimal" />
+    <MESSAGE value="121. Best Time to Buy and Sell Stock" />
+    <option name="LAST_COMMIT_MESSAGE" value="121. Best Time to Buy and Sell Stock" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1170,7 +1178,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Stack.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Vector.java" />
     <entry file="file://$PROJECT_DIR$/src/package200/ImplQueueUsingStacks.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1546,6 +1553,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="4" column="39" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package400/RepeatedSubstringPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="34" />
           <folding />
         </state>
       </provider>
