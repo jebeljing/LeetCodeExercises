@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/RepeatedSubstringPattern.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/PathSumIII.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GuessNumberHigherOrLower.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package300/GuessNumberHigherOrLower.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FindAllAnagramsInAString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package400/FindAllAnagramsInAString.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,11 +107,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RepeatedSubstringPattern.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RepeatedSubstringPattern.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package400/RepeatedSubstringPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="442">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PathSumIII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package400/PathSumIII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -197,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/package400/ConvertANumberToHexadecimal.java" />
         <option value="$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStock.java" />
         <option value="$PROJECT_DIR$/src/package400/RepeatedSubstringPattern.java" />
+        <option value="$PROJECT_DIR$/src/package400/PathSumIII.java" />
       </list>
     </option>
   </component>
@@ -853,7 +854,7 @@
       <workItem from="1479872315258" duration="1119000" />
       <workItem from="1479877212289" duration="1977000" />
       <workItem from="1480184062675" duration="7593000" />
-      <workItem from="1480269317268" duration="2236000" />
+      <workItem from="1480269317268" duration="3253000" />
     </task>
     <task id="LOCAL-00001" summary="BinaryTreePaths">
       <created>1478143230238</created>
@@ -1093,11 +1094,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480270946219</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="459. Repeated Substring Pattern">
+      <created>1480272041076</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1480272041076</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31319000" />
+    <option name="totallyTimeSpent" value="32336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1142,7 +1150,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="172. Factorial Trailing Zeroes." />
     <MESSAGE value="136. Single Number&#10;12. Fizz Buzz" />
     <MESSAGE value="371. Sum of Two Integers&#10;" />
     <MESSAGE value="389. Find the Difference" />
@@ -1167,7 +1174,8 @@
     <MESSAGE value="107. BInary Tree Level Order Traversal II" />
     <MESSAGE value="405. COnvert a Number to Hexadecimal" />
     <MESSAGE value="121. Best Time to Buy and Sell Stock" />
-    <option name="LAST_COMMIT_MESSAGE" value="121. Best Time to Buy and Sell Stock" />
+    <MESSAGE value="459. Repeated Substring Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="459. Repeated Substring Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1178,7 +1186,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Vector.java" />
     <entry file="file://$PROJECT_DIR$/src/package200/ImplQueueUsingStacks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1559,8 +1566,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package400/RepeatedSubstringPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="442">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package400/PathSumIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
           <folding />
         </state>
       </provider>
