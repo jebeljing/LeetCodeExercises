@@ -32,6 +32,7 @@ public class PalindromeLinkedList {
         // and restoring the reversed half of the list
         while(slow != null) {
             if (slow.val != reverseHead.val) return false;
+            slow = slow.next;
             ListNode temp = reverseHead.next;
             reverseHead.next = mid;
             mid = reverseHead;
