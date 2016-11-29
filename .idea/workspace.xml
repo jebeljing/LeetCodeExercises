@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/PathSumIII.java" />
+    <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="437. Path Sum III">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/IntegerToRoman.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,26 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindAllAnagramsInAString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package400/FindAllAnagramsInAString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="53" column="52" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PascalsTriangleII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package100/PascalsTriangleII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AddStrings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package400/AddStrings.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,11 +97,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PathSumIII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PathSumIII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package400/PathSumIII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="123">
               <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UglyNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/package200/UglyNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntegerToRoman.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package100/IntegerToRoman.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -147,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package200/UglyNumber.java" />
         <option value="$PROJECT_DIR$/src/package200/AddDigits.java" />
         <option value="$PROJECT_DIR$/src/package200/ImplStackUsingQueues.java" />
         <option value="$PROJECT_DIR$/src/package200/ImplQueueUsingStacks.java" />
@@ -198,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStock.java" />
         <option value="$PROJECT_DIR$/src/package400/RepeatedSubstringPattern.java" />
         <option value="$PROJECT_DIR$/src/package400/PathSumIII.java" />
+        <option value="$PROJECT_DIR$/src/package100/IntegerToRoman.java" />
       </list>
     </option>
   </component>
@@ -854,7 +854,7 @@
       <workItem from="1479872315258" duration="1119000" />
       <workItem from="1479877212289" duration="1977000" />
       <workItem from="1480184062675" duration="7593000" />
-      <workItem from="1480269317268" duration="3253000" />
+      <workItem from="1480269317268" duration="6214000" />
     </task>
     <task id="LOCAL-00001" summary="BinaryTreePaths">
       <created>1478143230238</created>
@@ -1101,11 +1101,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480272041076</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="437. Path Sum III">
+      <created>1480294937549</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1480294937549</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32336000" />
+    <option name="totallyTimeSpent" value="35297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1150,7 +1157,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="136. Single Number&#10;12. Fizz Buzz" />
     <MESSAGE value="371. Sum of Two Integers&#10;" />
     <MESSAGE value="389. Find the Difference" />
     <MESSAGE value="455. Assign Cookies" />
@@ -1175,7 +1181,8 @@
     <MESSAGE value="405. COnvert a Number to Hexadecimal" />
     <MESSAGE value="121. Best Time to Buy and Sell Stock" />
     <MESSAGE value="459. Repeated Substring Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="459. Repeated Substring Pattern" />
+    <MESSAGE value="437. Path Sum III" />
+    <option name="LAST_COMMIT_MESSAGE" value="437. Path Sum III" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1186,13 +1193,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package200/ImplQueueUsingStacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/ReverseBits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -1268,13 +1268,6 @@
         <state relative-caret-position="211">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package200/UglyNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1576,6 +1569,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package200/UglyNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package100/IntegerToRoman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>
