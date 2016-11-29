@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/RomanToInteger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/A3Sum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrangingCoins.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package400/ArrangingCoins.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="82" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BinaryTreeLevelOrderTraversalII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package100/BinaryTreeLevelOrderTraversalII.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,11 +107,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RomanToInteger.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RomanToInteger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package100/RomanToInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="446">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A3Sum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package100/A3Sum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package200/ImplStackUsingQueues.java" />
         <option value="$PROJECT_DIR$/src/package200/ImplQueueUsingStacks.java" />
         <option value="$PROJECT_DIR$/src/package100/NumberOf1Bits.java" />
         <option value="$PROJECT_DIR$/src/package100/ReverseBits.java" />
@@ -200,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/package400/PathSumIII.java" />
         <option value="$PROJECT_DIR$/src/package100/IntegerToRoman.java" />
         <option value="$PROJECT_DIR$/src/package100/RomanToInteger.java" />
+        <option value="$PROJECT_DIR$/src/package100/A3Sum.java" />
       </list>
     </option>
   </component>
@@ -856,7 +858,7 @@
       <workItem from="1479872315258" duration="1119000" />
       <workItem from="1479877212289" duration="1977000" />
       <workItem from="1480184062675" duration="7593000" />
-      <workItem from="1480269317268" duration="6708000" />
+      <workItem from="1480269317268" duration="7330000" />
     </task>
     <task id="LOCAL-00001" summary="BinaryTreePaths">
       <created>1478143230238</created>
@@ -1117,11 +1119,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480385230728</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="13. Roman to Integer">
+      <created>1480385724695</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1480385724695</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35791000" />
+    <option name="totallyTimeSpent" value="36413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1166,7 +1175,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="389. Find the Difference" />
     <MESSAGE value="455. Assign Cookies" />
     <MESSAGE value="349. Intersection&#10;" />
     <MESSAGE value="349. Intersection of Two Arrays&#10;" />
@@ -1191,7 +1199,8 @@
     <MESSAGE value="459. Repeated Substring Pattern" />
     <MESSAGE value="437. Path Sum III" />
     <MESSAGE value="12. Integer to Roman" />
-    <option name="LAST_COMMIT_MESSAGE" value="12. Integer to Roman" />
+    <MESSAGE value="13. Roman to Integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="13. Roman to Integer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1202,13 +1211,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package200/ImplStackUsingQueues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/NumberOf1Bits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1592,8 +1594,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/RomanToInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="446">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package100/A3Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
