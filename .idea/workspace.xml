@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/ArithmeticSlices.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/MinimumMovesToEqualArrayElementsII.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -35,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArithmeticSlices.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArithmeticSlices.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package400/ArithmeticSlices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="165">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinimumMovesToEqualArrayElementsII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package400/MinimumMovesToEqualArrayElementsII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="48" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -65,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package300/RansomeNote.java" />
         <option value="$PROJECT_DIR$/src/package400/MinimumMovesToEqualArrayElements.java" />
         <option value="$PROJECT_DIR$/src/package400/IslandPerimeter.java" />
         <option value="$PROJECT_DIR$/src/package100/PathSum.java" />
@@ -116,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/package300/CountingBits.java" />
         <option value="$PROJECT_DIR$/src/package400/QueueReconstructionByHeight.java" />
         <option value="$PROJECT_DIR$/src/package400/ArithmeticSlices.java" />
+        <option value="$PROJECT_DIR$/src/package400/MinimumMovesToEqualArrayElementsII.java" />
       </list>
     </option>
   </component>
@@ -786,14 +796,7 @@
       <workItem from="1481429994608" duration="397000" />
       <workItem from="1481473361462" duration="606000" />
       <workItem from="1481479284268" duration="3139000" />
-      <workItem from="1481511882301" duration="2030000" />
-    </task>
-    <task id="LOCAL-00005" summary="191. Number of 1 Bits">
-      <created>1478661347155</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1478661347155</updated>
+      <workItem from="1481511882301" duration="2288000" />
     </task>
     <task id="LOCAL-00006" summary="155. Min Stack">
       <created>1478752808442</created>
@@ -1131,11 +1134,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481594494601</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="413. Arithmetic Slices">
+      <created>1481598397374</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1481598397374</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50836000" />
+    <option name="totallyTimeSpent" value="51094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="612" y="23" width="1280" height="733" extended-state="0" />
@@ -1180,7 +1190,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="438. Find All Anagrams in a String" />
     <MESSAGE value="119. Pascal's Triangle II" />
     <MESSAGE value="441. Arranging COins" />
     <MESSAGE value="107. BInary Tree Level Order Traversal II" />
@@ -1205,7 +1214,8 @@
     <MESSAGE value="167. Two Sum II -Input array is sorted" />
     <MESSAGE value="338. Counting Bits" />
     <MESSAGE value="406. Queue Reconstruction by Height" />
-    <option name="LAST_COMMIT_MESSAGE" value="406. Queue Reconstruction by Height" />
+    <MESSAGE value="413. Arithmetic Slices" />
+    <option name="LAST_COMMIT_MESSAGE" value="413. Arithmetic Slices" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1226,13 +1236,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package400/LongestPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/PascalsTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1616,8 +1619,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package400/ArithmeticSlices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="165">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package400/MinimumMovesToEqualArrayElementsII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="48" />
           <folding />
         </state>
       </provider>
