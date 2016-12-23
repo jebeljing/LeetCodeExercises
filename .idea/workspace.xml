@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/UndirectedGraphNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/CloneGraph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/CoinChange.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -26,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RangeSumQueryMutable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package300/RangeSumQueryMutable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="72" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RangeSumQuery2DImmutable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package300/RangeSumQuery2DImmutable.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,11 +91,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloneGraph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CloneGraph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package100/CloneGraph.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoinChange.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package300/CoinChange.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="19" />
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package400/ArrangingCoins.java" />
         <option value="$PROJECT_DIR$/src/package100/BinaryTreeLevelOrderTraversalII.java" />
         <option value="$PROJECT_DIR$/src/package400/ConvertANumberToHexadecimal.java" />
         <option value="$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStock.java" />
@@ -207,6 +207,7 @@
         <option value="$PROJECT_DIR$/src/package300/DesignTwitter.java" />
         <option value="$PROJECT_DIR$/src/package100/CloneGraph.java" />
         <option value="$PROJECT_DIR$/src/base/UndirectedGraphNode.java" />
+        <option value="$PROJECT_DIR$/src/package300/CoinChange.java" />
       </list>
     </option>
   </component>
@@ -296,7 +297,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="package100" />
+              <option name="myItemId" value="package300" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,27 +333,7 @@
       <recent name="package0" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesignTwitter">
-    <configuration default="false" name="MinimumDepthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="package0.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="package100.MinimumDepthOfBinaryTree" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LeetCode" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.CoinChange">
     <configuration default="false" name="NthDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -421,6 +402,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="package300.DesignTwitter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LeetCode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="package300.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="package300.CoinChange" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -893,19 +894,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MinimumDepthOfBinaryTree" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NthDigit" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TrainTickets" />
-      <item index="3" class="java.lang.String" itemvalue="Application.EvaluateReversePolishNotation" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DesignTwitter" />
+      <item index="0" class="java.lang.String" itemvalue="Application.NthDigit" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TrainTickets" />
+      <item index="2" class="java.lang.String" itemvalue="Application.EvaluateReversePolishNotation" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DesignTwitter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CoinChange" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DesignTwitter" />
-        <item index="1" class="java.lang.String" itemvalue="Application.EvaluateReversePolishNotation" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TrainTickets" />
-        <item index="3" class="java.lang.String" itemvalue="Application.NthDigit" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MinimumDepthOfBinaryTree" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CoinChange" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DesignTwitter" />
+        <item index="2" class="java.lang.String" itemvalue="Application.EvaluateReversePolishNotation" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TrainTickets" />
+        <item index="4" class="java.lang.String" itemvalue="Application.NthDigit" />
       </list>
     </recent_temporary>
   </component>
@@ -959,14 +960,7 @@
       <workItem from="1482199653734" duration="1237000" />
       <workItem from="1482202945881" duration="2331000" />
       <workItem from="1482362110008" duration="605000" />
-      <workItem from="1482460819375" duration="4638000" />
-    </task>
-    <task id="LOCAL-00018" summary="453. Minimum Moves to Equal Array Elements">
-      <created>1479785517368</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1479785517368</updated>
+      <workItem from="1482460819375" duration="5530000" />
     </task>
     <task id="LOCAL-00019" summary="463. Island Perimeter">
       <created>1479786102615</created>
@@ -1304,11 +1298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482469629935</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="133. Clone Graph">
+      <created>1482509017451</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1482509017451</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69672000" />
+    <option name="totallyTimeSpent" value="70564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1322,7 +1323,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1332,7 +1333,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44855967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44855967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1353,7 +1354,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="350. Intersection of Two Arrays II" />
     <MESSAGE value="125. Valid Palindrome" />
     <MESSAGE value="278. First Bad Version" />
     <MESSAGE value="111. Minimum Depth of Binary Tree" />
@@ -1378,7 +1378,8 @@
     <MESSAGE value="150. Evaluate Reverse Polish Notation" />
     <MESSAGE value="211. Add and Search Word - Data structure design" />
     <MESSAGE value="355. Design Twitter" />
-    <option name="LAST_COMMIT_MESSAGE" value="355. Design Twitter" />
+    <MESSAGE value="133. Clone Graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="133. Clone Graph" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1411,13 +1412,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package400/MinimumMovesToEqualArrayElementsII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package400/ArithmeticSlices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1791,8 +1785,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/CloneGraph.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package300/CoinChange.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="19" />
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
