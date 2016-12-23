@@ -52,7 +52,7 @@ class WordDictionary {
 
     // Returns if the word is in the data structure. A word could contains the dot character '.' to represent any one letter.
     public boolean search(String word) {
-        return helper(word.toCharArray(), 0, TrieNode root)
+        return helper(word.toCharArray(), 0, root);
     }
 
     private boolean helper(char[] chars, int index, TrieNode root) {
