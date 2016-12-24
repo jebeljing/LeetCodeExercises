@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/RemoveKDigits.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package200/MaximalSquare.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EvaluateReversePolishNotation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package100/EvaluateReversePolishNotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WaterAndJugProblem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package300/WaterAndJugProblem.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,12 +85,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveKDigits.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RemoveKDigits.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package400/RemoveKDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="446">
+              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximalSquare.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package200/MaximalSquare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <marker date="1482540901653" expanded="true" signature="21:309" ph="/**...*/" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package400/ConvertANumberToHexadecimal.java" />
         <option value="$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStock.java" />
         <option value="$PROJECT_DIR$/src/package400/RepeatedSubstringPattern.java" />
         <option value="$PROJECT_DIR$/src/package400/PathSumIII.java" />
@@ -208,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/base/UndirectedGraphNode.java" />
         <option value="$PROJECT_DIR$/src/package300/CoinChange.java" />
         <option value="$PROJECT_DIR$/src/package400/RemoveKDigits.java" />
+        <option value="$PROJECT_DIR$/src/package200/MaximalSquare.java" />
       </list>
     </option>
   </component>
@@ -297,7 +299,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="package400" />
+              <option name="myItemId" value="package200" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -960,14 +962,7 @@
       <workItem from="1482199653734" duration="1237000" />
       <workItem from="1482202945881" duration="2331000" />
       <workItem from="1482362110008" duration="605000" />
-      <workItem from="1482460819375" duration="6221000" />
-    </task>
-    <task id="LOCAL-00020" summary="110. Balanced Binary Tree">
-      <created>1479873565680</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1479873565680</updated>
+      <workItem from="1482460819375" duration="6860000" />
     </task>
     <task id="LOCAL-00021" summary="141. Linked List Cycle&#10;">
       <created>1479874603055</created>
@@ -1305,11 +1300,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482524426874</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="402. Remove K Digits">
+      <created>1482525712686</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1482525712686</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71255000" />
+    <option name="totallyTimeSpent" value="71894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1354,7 +1356,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="278. First Bad Version" />
     <MESSAGE value="111. Minimum Depth of Binary Tree" />
     <MESSAGE value="303. Range Sum Query - Immutable" />
     <MESSAGE value="151. Reverse Words in a string" />
@@ -1379,7 +1380,8 @@
     <MESSAGE value="355. Design Twitter" />
     <MESSAGE value="133. Clone Graph" />
     <MESSAGE value="322. Coin Change" />
-    <option name="LAST_COMMIT_MESSAGE" value="322. Coin Change" />
+    <MESSAGE value="402. Remove K Digits" />
+    <option name="LAST_COMMIT_MESSAGE" value="402. Remove K Digits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1412,13 +1414,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package200/AddDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/self/TrainTickets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1802,9 +1797,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package400/RemoveKDigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="446">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package200/MaximalSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <marker date="1482540901653" expanded="true" signature="21:309" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
