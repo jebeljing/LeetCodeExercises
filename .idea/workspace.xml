@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/SortCharactersByFrequenc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/FindAllDuplicatesInAnArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -91,24 +91,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortCharactersByFrequenc.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortCharactersByFrequenc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package400/SortCharactersByFrequenc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="495">
+              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountCompleteTreeNodes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package200/CountCompleteTreeNodes.java">
+      <file leaf-file-name="FindAllDuplicatesInAnArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package400/FindAllDuplicatesInAnArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="105">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="39" />
               <folding>
-                <element signature="e#532#533#0" expanded="false" />
-                <element signature="e#595#596#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package100/ValidPalindrome.java" />
         <option value="$PROJECT_DIR$/src/package200/PalindromeLinkedList.java" />
         <option value="$PROJECT_DIR$/src/package200/FirstBadVersion.java" />
         <option value="$PROJECT_DIR$/src/base/TreeNode.java" />
@@ -205,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/package300/ReconstructItinerary.java" />
         <option value="$PROJECT_DIR$/src/package300/MinimumHeightTrees.java" />
         <option value="$PROJECT_DIR$/src/package400/SortCharactersByFrequenc.java" />
+        <option value="$PROJECT_DIR$/src/package400/FindAllDuplicatesInAnArray.java" />
       </list>
     </option>
   </component>
@@ -215,8 +214,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="23" />
+    <option name="x" value="513" />
+    <option name="y" value="27" />
     <option name="width" value="1202" />
     <option name="height" value="732" />
   </component>
@@ -957,14 +956,7 @@
       <workItem from="1482362110008" duration="605000" />
       <workItem from="1482460819375" duration="7936000" />
       <workItem from="1483582554983" duration="3727000" />
-      <workItem from="1483670000794" duration="4002000" />
-    </task>
-    <task id="LOCAL-00028" summary="374. Guess Number Higher or Lower">
-      <created>1480191898790</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1480191898790</updated>
+      <workItem from="1483670000794" duration="4168000" />
     </task>
     <task id="LOCAL-00029" summary="438. Find All Anagrams in a String">
       <created>1480204006114</created>
@@ -1302,14 +1294,21 @@
       <option name="project" value="LOCAL" />
       <updated>1483737750408</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="451. Sort Characters by Frequency.">
+      <created>1483739374462</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1483739374463</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80699000" />
+    <option name="totallyTimeSpent" value="80865000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="23" width="1202" height="732" extended-state="0" />
+    <frame x="513" y="27" width="1202" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1351,7 +1350,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="338. Counting Bits" />
     <MESSAGE value="406. Queue Reconstruction by Height" />
     <MESSAGE value="413. Arithmetic Slices" />
     <MESSAGE value="TrainTickets" />
@@ -1376,7 +1374,8 @@
     <MESSAGE value="229. Majority Element II" />
     <MESSAGE value="332. Reconstruct Itinerary" />
     <MESSAGE value="310. Minimum Height Trees" />
-    <option name="LAST_COMMIT_MESSAGE" value="310. Minimum Height Trees" />
+    <MESSAGE value="451. Sort Characters by Frequency." />
+    <option name="LAST_COMMIT_MESSAGE" value="451. Sort Characters by Frequency." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1409,13 +1408,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package100/ExcelSheetColumnNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/ExcelSheetColumnTitle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1798,9 +1790,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package400/SortCharactersByFrequenc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="495">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package400/FindAllDuplicatesInAnArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
