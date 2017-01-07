@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/TopKFrequentElement.java" />
+    <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="347. Top K Frequent Elements">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/LinkedListRandomNote.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -113,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopKFrequentElement.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TopKFrequentElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package300/TopKFrequentElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="225">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,12 +125,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdditiveNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package300/AdditiveNumber.java">
+      <file leaf-file-name="LinkedListRandomNote.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package300/LinkedListRandomNote.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="23" />
-              <folding />
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="31" />
+              <folding>
+                <element signature="e#980#981#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
+                <element signature="e#1410#1411#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package200/FirstBadVersion.java" />
         <option value="$PROJECT_DIR$/src/base/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/package100/MinimumDepthOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/package300/RangeSumQueryImmutable.java" />
@@ -206,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/package400/SortCharactersByFrequenc.java" />
         <option value="$PROJECT_DIR$/src/package400/FindAllDuplicatesInAnArray.java" />
         <option value="$PROJECT_DIR$/src/package300/TopKFrequentElement.java" />
+        <option value="$PROJECT_DIR$/src/package300/LinkedListRandomNote.java" />
       </list>
     </option>
   </component>
@@ -216,7 +221,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
+    <option name="x" value="560" />
     <option name="y" value="23" />
     <option name="width" value="1202" />
     <option name="height" value="732" />
@@ -976,14 +981,7 @@
       <workItem from="1482362110008" duration="605000" />
       <workItem from="1482460819375" duration="7936000" />
       <workItem from="1483582554983" duration="3727000" />
-      <workItem from="1483670000794" duration="4342000" />
-    </task>
-    <task id="LOCAL-00030" summary="119. Pascal's Triangle II">
-      <created>1480221147007</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1480221147007</updated>
+      <workItem from="1483670000794" duration="4654000" />
     </task>
     <task id="LOCAL-00031" summary="441. Arranging COins">
       <created>1480222828626</created>
@@ -1321,14 +1319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1483740295718</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="347. Top K Frequent Elements">
+      <created>1483753809312</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1483753809313</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81039000" />
+    <option name="totallyTimeSpent" value="81351000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="23" width="1202" height="732" extended-state="0" />
+    <frame x="560" y="23" width="1202" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1343,7 +1348,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1370,7 +1375,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="413. Arithmetic Slices" />
     <MESSAGE value="TrainTickets" />
     <MESSAGE value="127. Word Ladder" />
     <MESSAGE value="179. Largest Number" />
@@ -1395,7 +1399,8 @@
     <MESSAGE value="310. Minimum Height Trees" />
     <MESSAGE value="451. Sort Characters by Frequency." />
     <MESSAGE value="442. Find All Duplicates in an Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="442. Find All Duplicates in an Array" />
+    <MESSAGE value="347. Top K Frequent Elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="347. Top K Frequent Elements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1428,13 +1433,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package100/FactorialTrailingZeroes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package0/IntegerToRoman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1821,10 +1819,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package300/TopKFrequentElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="225">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package300/LinkedListRandomNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
           </folding>
         </state>
       </provider>
