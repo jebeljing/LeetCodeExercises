@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStockII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/AddTwoNumbersII.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStock.java" afterPath="$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStock.java" />
     </list>
     <ignored path="LeetCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,18 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MajorityElementII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package200/MajorityElementII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="103" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReconstructItinerary.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package300/ReconstructItinerary.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,12 +116,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BestTimeToBuyAndSellStockII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BestTimeToBuyAndSellStockII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStockII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="42" />
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddTwoNumbersII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package400/AddTwoNumbersII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package300/RangeSumQueryImmutable.java" />
         <option value="$PROJECT_DIR$/src/package400/ThirdMaximumNumber.java" />
         <option value="$PROJECT_DIR$/src/package400/NthDigit.java" />
         <option value="$PROJECT_DIR$/src/package100/ReverseWordsInAString.java" />
@@ -208,8 +206,9 @@
         <option value="$PROJECT_DIR$/src/package400/FindAllDuplicatesInAnArray.java" />
         <option value="$PROJECT_DIR$/src/package300/TopKFrequentElement.java" />
         <option value="$PROJECT_DIR$/src/package300/LinkedListRandomNote.java" />
-        <option value="$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStock.java" />
         <option value="$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStockII.java" />
+        <option value="$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStock.java" />
+        <option value="$PROJECT_DIR$/src/package400/AddTwoNumbersII.java" />
       </list>
     </option>
   </component>
@@ -220,8 +219,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="23" />
+    <option name="x" value="411" />
+    <option name="y" value="50" />
     <option name="width" value="1202" />
     <option name="height" value="732" />
   </component>
@@ -296,7 +295,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="package100" />
+              <option name="myItemId" value="package400" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -962,14 +961,7 @@
       <workItem from="1482362110008" duration="605000" />
       <workItem from="1482460819375" duration="7936000" />
       <workItem from="1483582554983" duration="3727000" />
-      <workItem from="1483670000794" duration="5069000" />
-    </task>
-    <task id="LOCAL-00032" summary="107. BInary Tree Level Order Traversal II">
-      <created>1480224751112</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1480224751112</updated>
+      <workItem from="1483670000794" duration="5332000" />
     </task>
     <task id="LOCAL-00033" summary="405. COnvert a Number to Hexadecimal">
       <created>1480269987274</created>
@@ -1307,14 +1299,21 @@
       <option name="project" value="LOCAL" />
       <updated>1483754648128</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="122. Best Time to Buy and Sell Stock II">
+      <created>1483755577266</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1483755577266</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81766000" />
+    <option name="totallyTimeSpent" value="82029000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="23" width="1202" height="732" extended-state="0" />
+    <frame x="411" y="50" width="1202" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1329,7 +1328,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1356,7 +1355,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="127. Word Ladder" />
     <MESSAGE value="179. Largest Number" />
     <MESSAGE value="148. Sort List" />
     <MESSAGE value="208. Implement Trie (Prefix Tree)" />
@@ -1381,7 +1379,8 @@
     <MESSAGE value="442. Find All Duplicates in an Array" />
     <MESSAGE value="347. Top K Frequent Elements" />
     <MESSAGE value="382. Linked List Random Node" />
-    <option name="LAST_COMMIT_MESSAGE" value="382. Linked List Random Node" />
+    <MESSAGE value="122. Best Time to Buy and Sell Stock II" />
+    <option name="LAST_COMMIT_MESSAGE" value="122. Best Time to Buy and Sell Stock II" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1414,13 +1413,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package100/FractionToRecurringDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/IntersectionOfTwoLinkedLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1820,8 +1812,18 @@
     <entry file="file://$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStockII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="42" />
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package400/AddTwoNumbersII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
