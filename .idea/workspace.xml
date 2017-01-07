@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/AddTwoNumbersII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/BinarySearchTreeIterator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReconstructItinerary.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package300/ReconstructItinerary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReverseVowelsOfAString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package300/ReverseVowelsOfAString.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,13 +116,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddTwoNumbersII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddTwoNumbersII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package400/AddTwoNumbersII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchTreeIterator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package100/BinarySearchTreeIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,7 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package400/ThirdMaximumNumber.java" />
         <option value="$PROJECT_DIR$/src/package400/NthDigit.java" />
         <option value="$PROJECT_DIR$/src/package100/ReverseWordsInAString.java" />
         <option value="$PROJECT_DIR$/src/package100/FractionToRecurringDecimal.java" />
@@ -209,6 +212,7 @@
         <option value="$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStockII.java" />
         <option value="$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStock.java" />
         <option value="$PROJECT_DIR$/src/package400/AddTwoNumbersII.java" />
+        <option value="$PROJECT_DIR$/src/package100/BinarySearchTreeIterator.java" />
       </list>
     </option>
   </component>
@@ -219,8 +223,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="411" />
-    <option name="y" value="50" />
+    <option name="x" value="427" />
+    <option name="y" value="23" />
     <option name="width" value="1202" />
     <option name="height" value="732" />
   </component>
@@ -296,6 +300,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="package400" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="package100" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -961,14 +983,7 @@
       <workItem from="1482362110008" duration="605000" />
       <workItem from="1482460819375" duration="7936000" />
       <workItem from="1483582554983" duration="3727000" />
-      <workItem from="1483670000794" duration="5332000" />
-    </task>
-    <task id="LOCAL-00033" summary="405. COnvert a Number to Hexadecimal">
-      <created>1480269987274</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1480269987274</updated>
+      <workItem from="1483670000794" duration="5623000" />
     </task>
     <task id="LOCAL-00034" summary="121. Best Time to Buy and Sell Stock">
       <created>1480270946219</created>
@@ -1306,14 +1321,21 @@
       <option name="project" value="LOCAL" />
       <updated>1483755577266</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="445. Add Two Numbers II">
+      <created>1483821289710</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1483821289711</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82029000" />
+    <option name="totallyTimeSpent" value="82320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="411" y="50" width="1202" height="732" extended-state="0" />
+    <frame x="427" y="23" width="1202" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1328,7 +1350,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1355,7 +1377,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="179. Largest Number" />
     <MESSAGE value="148. Sort List" />
     <MESSAGE value="208. Implement Trie (Prefix Tree)" />
     <MESSAGE value="Refactoring package100 to package100 + package0" />
@@ -1380,7 +1401,8 @@
     <MESSAGE value="347. Top K Frequent Elements" />
     <MESSAGE value="382. Linked List Random Node" />
     <MESSAGE value="122. Best Time to Buy and Sell Stock II" />
-    <option name="LAST_COMMIT_MESSAGE" value="122. Best Time to Buy and Sell Stock II" />
+    <MESSAGE value="445. Add Two Numbers II" />
+    <option name="LAST_COMMIT_MESSAGE" value="445. Add Two Numbers II" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1413,13 +1435,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package100/IntersectionOfTwoLinkedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/LargestNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1819,10 +1834,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package400/AddTwoNumbersII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="210">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package100/BinarySearchTreeIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
           </folding>
         </state>
       </provider>
