@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package200/MissingNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/BinaryTreePreorderTraversal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BestTimeToBuyAndSellStock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BestTimeToBuyAndSellStockII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package100/BestTimeToBuyAndSellStockII.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,12 +116,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MissingNumber.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MissingNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package200/MissingNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreePreorderTraversal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package100/BinaryTreePreorderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package100/TwoSumIIInputArrayIsSorted.java" />
         <option value="$PROJECT_DIR$/src/package300/CountingBits.java" />
         <option value="$PROJECT_DIR$/src/package400/QueueReconstructionByHeight.java" />
         <option value="$PROJECT_DIR$/src/package400/ArithmeticSlices.java" />
@@ -207,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/package300/IntegerBreak.java" />
         <option value="$PROJECT_DIR$/src/package300/IsSubsequence.java" />
         <option value="$PROJECT_DIR$/src/package200/MissingNumber.java" />
+        <option value="$PROJECT_DIR$/src/package100/BinaryTreePreorderTraversal.java" />
       </list>
     </option>
   </component>
@@ -217,7 +219,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="480" />
+    <option name="x" value="508" />
     <option name="y" value="23" />
     <option name="width" value="1202" />
     <option name="height" value="732" />
@@ -311,7 +313,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="package200" />
+              <option name="myItemId" value="package100" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -977,14 +979,7 @@
       <workItem from="1482362110008" duration="605000" />
       <workItem from="1482460819375" duration="7936000" />
       <workItem from="1483582554983" duration="3727000" />
-      <workItem from="1483670000794" duration="7331000" />
-    </task>
-    <task id="LOCAL-00040" summary="447. Number of Boomerangs">
-      <created>1480388051506</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1480388051506</updated>
+      <workItem from="1483670000794" duration="7596000" />
     </task>
     <task id="LOCAL-00041" summary="401. Binary Watch">
       <created>1480389515055</created>
@@ -1322,14 +1317,21 @@
       <option name="project" value="LOCAL" />
       <updated>1483928515405</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="268. Missing Number">
+      <created>1483929090442</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1483929090442</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84028000" />
+    <option name="totallyTimeSpent" value="84293000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="480" y="23" width="1202" height="732" extended-state="0" />
+    <frame x="508" y="23" width="1202" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1371,7 +1373,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="150. Evaluate Reverse Polish Notation" />
     <MESSAGE value="211. Add and Search Word - Data structure design" />
     <MESSAGE value="355. Design Twitter" />
     <MESSAGE value="133. Clone Graph" />
@@ -1396,7 +1397,8 @@
     <MESSAGE value="384. Shuffle an Array" />
     <MESSAGE value="343. Integer Break;" />
     <MESSAGE value="392. Is Subsequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="392. Is Subsequence" />
+    <MESSAGE value="268. Missing Number" />
+    <option name="LAST_COMMIT_MESSAGE" value="268. Missing Number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1429,13 +1431,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package100/PascalsTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/PascalsTriangleII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1759,10 +1754,10 @@
         <state relative-caret-position="420">
           <caret line="28" column="89" selection-start-line="28" selection-start-column="89" selection-end-line="28" selection-end-column="89" />
           <folding>
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="false" />
+            <element signature="e#1012#1013#0" expanded="false" />
+            <element signature="e#1341#1342#0" expanded="false" />
+            <element signature="e#1410#1411#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1852,9 +1847,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package200/MissingNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package100/BinaryTreePreorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
