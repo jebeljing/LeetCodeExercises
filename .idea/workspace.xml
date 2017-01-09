@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/IntegerBreak.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/IsSubsequence.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,18 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TopKFrequentElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package300/TopKFrequentElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LinkedListRandomNote.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package300/LinkedListRandomNote.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,8 +121,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntegerBreak.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IntegerBreak.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package300/IntegerBreak.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsSubsequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package300/IsSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="22" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="22" />
@@ -163,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package200/ProductOfArrayExceptSelf.java" />
         <option value="$PROJECT_DIR$/src/package400/BattleshipsInABoard.java" />
         <option value="$PROJECT_DIR$/src/package100/TwoSumIIInputArrayIsSorted.java" />
         <option value="$PROJECT_DIR$/src/package300/CountingBits.java" />
@@ -214,6 +211,7 @@
         <option value="$PROJECT_DIR$/src/package300/CountNumbersWithUniqueDigits.java" />
         <option value="$PROJECT_DIR$/src/package300/ShufflAnArray.java" />
         <option value="$PROJECT_DIR$/src/package300/IntegerBreak.java" />
+        <option value="$PROJECT_DIR$/src/package300/IsSubsequence.java" />
       </list>
     </option>
   </component>
@@ -224,7 +222,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="452" />
+    <option name="x" value="580" />
     <option name="y" value="23" />
     <option name="width" value="1202" />
     <option name="height" value="732" />
@@ -984,14 +982,7 @@
       <workItem from="1482362110008" duration="605000" />
       <workItem from="1482460819375" duration="7936000" />
       <workItem from="1483582554983" duration="3727000" />
-      <workItem from="1483670000794" duration="6718000" />
-    </task>
-    <task id="LOCAL-00038" summary="13. Roman to Integer">
-      <created>1480385724695</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1480385724695</updated>
+      <workItem from="1483670000794" duration="7185000" />
     </task>
     <task id="LOCAL-00039" summary="15. 3Sum">
       <created>1480386348902</created>
@@ -1329,14 +1320,21 @@
       <option name="project" value="LOCAL" />
       <updated>1483851028727</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="343. Integer Break;">
+      <created>1483926922061</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1483926922061</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83415000" />
+    <option name="totallyTimeSpent" value="83882000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="452" y="23" width="1202" height="732" extended-state="0" />
+    <frame x="580" y="23" width="1202" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1351,7 +1349,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1378,7 +1376,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="304. Range Sum Query 2D - Immutable" />
     <MESSAGE value="152. Maximum Product Subarray" />
     <MESSAGE value="150. Evaluate Reverse Polish Notation" />
     <MESSAGE value="211. Add and Search Word - Data structure design" />
@@ -1403,7 +1400,8 @@
     <MESSAGE value="386. Lexicographical Numbers" />
     <MESSAGE value="357. Count Numbers with Unique Digits" />
     <MESSAGE value="384. Shuffle an Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="384. Shuffle an Array" />
+    <MESSAGE value="343. Integer Break;" />
+    <option name="LAST_COMMIT_MESSAGE" value="343. Integer Break;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1436,13 +1434,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package100/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/NumberOf1Bits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1856,6 +1847,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package300/IntegerBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package300/IsSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="22" />
