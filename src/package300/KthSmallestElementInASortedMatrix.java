@@ -21,6 +21,10 @@ package package300;
  You may assume k is always valid, 1 ≤ k ≤ n2.
  */
 public class KthSmallestElementInASortedMatrix {
+
+    /*
+    * Main loop is binary search of max - min.
+Swap from left-bottom to right-top can get count <= mid in O(n) time instead of O(nlogn), total complexity will be O(nlogm) while m = max - min.*/
     public int kthSmallest(int[][] matrix, int k) {
         int n = matrix.length;
         int low = matrix[0][0];
