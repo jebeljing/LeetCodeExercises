@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="454. 4Sum II">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/ReconstructOriginalDigitsFromEnglish.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/SerializeAndDeserializeBST.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReconstructOriginalDigitsFromEnglish.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package400/ReconstructOriginalDigitsFromEnglish.java">
+      <file leaf-file-name="SerializeAndDeserializeBST.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package400/SerializeAndDeserializeBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="48" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="48" />
+            <state relative-caret-position="-180">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -56,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/self/TrainTickets.java" />
         <option value="$PROJECT_DIR$/src/self/TreePathWIthDivisible5.java" />
         <option value="$PROJECT_DIR$/src/package100/WordLadder.java" />
         <option value="$PROJECT_DIR$/src/package100/LargestNumber.java" />
@@ -107,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/package300/KthSmallestElementInASortedMatrix.java" />
         <option value="$PROJECT_DIR$/src/package400/A4SumII.java" />
         <option value="$PROJECT_DIR$/src/package400/ReconstructOriginalDigitsFromEnglish.java" />
+        <option value="$PROJECT_DIR$/src/package400/SerializeAndDeserializeBST.java" />
       </list>
     </option>
   </component>
@@ -861,14 +861,7 @@
       <workItem from="1483582554983" duration="3727000" />
       <workItem from="1483670000794" duration="8034000" />
       <workItem from="1484015769943" duration="204000" />
-      <workItem from="1484074903920" duration="1963000" />
-    </task>
-    <task id="LOCAL-00045" summary="111. Minimum Depth of Binary Tree">
-      <created>1480562621509</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1480562621509</updated>
+      <workItem from="1484074903920" duration="2640000" />
     </task>
     <task id="LOCAL-00046" summary="303. Range Sum Query - Immutable">
       <created>1480651785659</created>
@@ -1206,11 +1199,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484075690665</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="423. Reconstruct Original Digits from English">
+      <created>1484080974118</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1484080974118</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86898000" />
+    <option name="totallyTimeSpent" value="87575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1255,7 +1255,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="402. Remove K Digits" />
     <MESSAGE value="221. Maximal Square" />
     <MESSAGE value="5. Longest Palindromic Substring" />
     <MESSAGE value="306. Additive Number" />
@@ -1280,7 +1279,8 @@
     <MESSAGE value="230. Kth Smallest Element in a BST." />
     <MESSAGE value="378. Kth Smallest Element in a Sorted Matrix." />
     <MESSAGE value="454. 4Sum II" />
-    <option name="LAST_COMMIT_MESSAGE" value="454. 4Sum II" />
+    <MESSAGE value="423. Reconstruct Original Digits from English" />
+    <option name="LAST_COMMIT_MESSAGE" value="423. Reconstruct Original Digits from English" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1313,13 +1313,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package400/CanIWin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/WordLadder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -1457,14 +1450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package400/RemoveKDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -1713,8 +1698,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package400/ReconstructOriginalDigitsFromEnglish.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="48" />
+        <state relative-caret-position="476">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <marker date="1484077467279" expanded="true" signature="21:578" ph="/**...*/" />
+            <marker date="1484077467279" expanded="true" signature="674:1656" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package400/RemoveKDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+          <folding>
+            <marker date="1484074897766" expanded="true" signature="46:845" ph="/**...*/" />
+            <marker date="1484074897766" expanded="true" signature="926:1877" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package400/SerializeAndDeserializeBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="37" />
           <folding />
         </state>
       </provider>
