@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="452. Minimum Number of Arrows to Burst Balloons">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package200/CombinationSumIII.java" />
+    <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package200/DifferentWaysToAddParentheses.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,13 +25,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CombinationSumIII.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package200/CombinationSumIII.java">
+      <file leaf-file-name="DifferentWaysToAddParentheses.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package200/DifferentWaysToAddParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="119">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#736#745#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package100/SortList.java" />
         <option value="$PROJECT_DIR$/src/package200/ImplementTriePrefixTree.java" />
         <option value="$PROJECT_DIR$/src/package100/A132Pattern.java" />
         <option value="$PROJECT_DIR$/src/package0/A3Sum.java" />
@@ -108,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/package400/MaximumXOROfTwoNumbersInAnArray.java" />
         <option value="$PROJECT_DIR$/src/package400/MinimumNumberOfArrowsToBurstBalloons.java" />
         <option value="$PROJECT_DIR$/src/package200/CombinationSumIII.java" />
+        <option value="$PROJECT_DIR$/src/package200/DifferentWaysToAddParentheses.java" />
       </list>
     </option>
   </component>
@@ -882,14 +883,7 @@
       <workItem from="1484015769943" duration="204000" />
       <workItem from="1484074903920" duration="3295000" />
       <workItem from="1484096826839" duration="252000" />
-      <workItem from="1484161273438" duration="1232000" />
-    </task>
-    <task id="LOCAL-00048" summary="468. Validate IP Address">
-      <created>1481479312905</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1481479312905</updated>
+      <workItem from="1484161273438" duration="1905000" />
     </task>
     <task id="LOCAL-00049" summary="130. Surrounded Regions">
       <created>1481506904624</created>
@@ -1227,11 +1221,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484161534543</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="216. Combination Sum III">
+      <created>1484163745076</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1484163745076</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89714000" />
+    <option name="totallyTimeSpent" value="90387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1276,7 +1277,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="306. Additive Number" />
     <MESSAGE value="228. Summary Ranges" />
     <MESSAGE value="229. Majority Element II" />
     <MESSAGE value="332. Reconstruct Itinerary" />
@@ -1301,7 +1301,8 @@
     <MESSAGE value="423. Reconstruct Original Digits from English" />
     <MESSAGE value="449. Serialize and Deserialize BST" />
     <MESSAGE value="452. Minimum Number of Arrows to Burst Balloons" />
-    <option name="LAST_COMMIT_MESSAGE" value="452. Minimum Number of Arrows to Burst Balloons" />
+    <MESSAGE value="216. Combination Sum III" />
+    <option name="LAST_COMMIT_MESSAGE" value="216. Combination Sum III" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1334,13 +1335,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package0/RomanToInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/SortList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1726,10 +1720,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package200/CombinationSumIII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="816">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <marker date="1484163740841" expanded="true" signature="28:71" ph="..." />
+            <marker date="1484163740841" expanded="true" signature="73:452" ph="/**...*/" />
+            <marker date="1484163740841" expanded="true" signature="547:693" ph="{...}" />
+            <marker date="1484163740841" expanded="true" signature="798:1178" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package200/DifferentWaysToAddParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#736#745#0" expanded="true" />
           </folding>
         </state>
       </provider>
