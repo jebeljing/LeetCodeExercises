@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="454. 4Sum II">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/MinimumNumberOfArrowsToBurstBalloons.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="452. Minimum Number of Arrows to Burst Balloons">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package200/CombinationSumIII.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -26,15 +25,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MinimumNumberOfArrowsToBurstBalloons.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package400/MinimumNumberOfArrowsToBurstBalloons.java">
+      <file leaf-file-name="CombinationSumIII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package200/CombinationSumIII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="106">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1346#1534#0" expanded="true" />
-                <element signature="e#1533#1534#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package400/UniqueSubstringsInWraparoundString.java" />
         <option value="$PROJECT_DIR$/src/package100/SortList.java" />
         <option value="$PROJECT_DIR$/src/package200/ImplementTriePrefixTree.java" />
         <option value="$PROJECT_DIR$/src/package100/A132Pattern.java" />
@@ -111,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/package300/MaximumProductOfWordLengths.java" />
         <option value="$PROJECT_DIR$/src/package400/MaximumXOROfTwoNumbersInAnArray.java" />
         <option value="$PROJECT_DIR$/src/package400/MinimumNumberOfArrowsToBurstBalloons.java" />
+        <option value="$PROJECT_DIR$/src/package200/CombinationSumIII.java" />
       </list>
     </option>
   </component>
@@ -199,6 +196,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="package400" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCodeExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCodeExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="package200" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -867,14 +882,7 @@
       <workItem from="1484015769943" duration="204000" />
       <workItem from="1484074903920" duration="3295000" />
       <workItem from="1484096826839" duration="252000" />
-      <workItem from="1484161273438" duration="253000" />
-    </task>
-    <task id="LOCAL-00047" summary="151. Reverse Words in a string">
-      <created>1481431026969</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1481431026969</updated>
+      <workItem from="1484161273438" duration="1232000" />
     </task>
     <task id="LOCAL-00048" summary="468. Validate IP Address">
       <created>1481479312905</created>
@@ -1212,11 +1220,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484083687518</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="452. Minimum Number of Arrows to Burst Balloons">
+      <created>1484161534543</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1484161534543</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88735000" />
+    <option name="totallyTimeSpent" value="89714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1261,7 +1276,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5. Longest Palindromic Substring" />
     <MESSAGE value="306. Additive Number" />
     <MESSAGE value="228. Summary Ranges" />
     <MESSAGE value="229. Majority Element II" />
@@ -1286,7 +1300,8 @@
     <MESSAGE value="454. 4Sum II" />
     <MESSAGE value="423. Reconstruct Original Digits from English" />
     <MESSAGE value="449. Serialize and Deserialize BST" />
-    <option name="LAST_COMMIT_MESSAGE" value="449. Serialize and Deserialize BST" />
+    <MESSAGE value="452. Minimum Number of Arrows to Burst Balloons" />
+    <option name="LAST_COMMIT_MESSAGE" value="452. Minimum Number of Arrows to Burst Balloons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1319,13 +1334,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package100/TwoSumIIInputArrayIsSorted.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package0/RomanToInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1568,6 +1576,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#832#833#0" expanded="false" />
+            <element signature="e#871#872#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1627,6 +1640,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1696,12 +1712,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package400/MinimumNumberOfArrowsToBurstBalloons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="578">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <marker date="1484161526358" expanded="true" signature="28:74" ph="..." />
+            <marker date="1484161526358" expanded="true" signature="76:1136" ph="/**...*/" />
+            <marker date="1484161526358" expanded="true" signature="1238:1928" ph="{...}" />
+            <marker date="1484161526358" expanded="true" signature="1346:1422" ph="(Comparator) (a, b) → {" />
+            <marker date="1484161526358" expanded="true" signature="1519:1534" ph="}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package200/CombinationSumIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1346#1534#0" expanded="true" />
-            <element signature="e#1533#1534#0" expanded="true" />
           </folding>
         </state>
       </provider>
