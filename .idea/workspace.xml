@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package200/DifferentWaysToAddParentheses.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/OddEvenLinkedList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,15 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DifferentWaysToAddParentheses.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package200/DifferentWaysToAddParentheses.java">
+      <file leaf-file-name="OddEvenLinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package300/OddEvenLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#736#745#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package200/ImplementTriePrefixTree.java" />
         <option value="$PROJECT_DIR$/src/package100/A132Pattern.java" />
         <option value="$PROJECT_DIR$/src/package0/A3Sum.java" />
         <option value="$PROJECT_DIR$/src/package0/IntegerToRoman.java" />
@@ -109,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/package400/MinimumNumberOfArrowsToBurstBalloons.java" />
         <option value="$PROJECT_DIR$/src/package200/CombinationSumIII.java" />
         <option value="$PROJECT_DIR$/src/package200/DifferentWaysToAddParentheses.java" />
+        <option value="$PROJECT_DIR$/src/package300/OddEvenLinkedList.java" />
       </list>
     </option>
   </component>
@@ -149,7 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,32 +193,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="package400" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCodeExercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCodeExercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="package200" />
+              <option name="myItemId" value="package300" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -883,14 +862,8 @@
       <workItem from="1484015769943" duration="204000" />
       <workItem from="1484074903920" duration="3295000" />
       <workItem from="1484096826839" duration="252000" />
-      <workItem from="1484161273438" duration="1905000" />
-    </task>
-    <task id="LOCAL-00049" summary="130. Surrounded Regions">
-      <created>1481506904624</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1481506904624</updated>
+      <workItem from="1484161273438" duration="1923000" />
+      <workItem from="1484245516392" duration="889000" />
     </task>
     <task id="LOCAL-00050" summary="238. Product of Array Except Self">
       <created>1481508177731</created>
@@ -1228,11 +1201,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484163745076</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="241. Different Ways to Add Parentheses.">
+      <created>1484164809515</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1484164809515</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90387000" />
+    <option name="totallyTimeSpent" value="91294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1277,7 +1257,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="228. Summary Ranges" />
     <MESSAGE value="229. Majority Element II" />
     <MESSAGE value="332. Reconstruct Itinerary" />
     <MESSAGE value="310. Minimum Height Trees" />
@@ -1302,7 +1281,8 @@
     <MESSAGE value="449. Serialize and Deserialize BST" />
     <MESSAGE value="452. Minimum Number of Arrows to Burst Balloons" />
     <MESSAGE value="216. Combination Sum III" />
-    <option name="LAST_COMMIT_MESSAGE" value="216. Combination Sum III" />
+    <MESSAGE value="241. Different Ways to Add Parentheses." />
+    <option name="LAST_COMMIT_MESSAGE" value="241. Different Ways to Add Parentheses." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1335,13 +1315,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package100/SortList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/SurroundedRegions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1570,11 +1543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#832#833#0" expanded="false" />
-            <element signature="e#871#872#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1634,9 +1602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1733,12 +1698,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package200/DifferentWaysToAddParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="42" />
+        <state relative-caret-position="459">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#736#745#0" expanded="true" />
+            <marker date="1484164804488" expanded="true" signature="28:71" ph="..." />
+            <marker date="1484164804488" expanded="true" signature="73:590" ph="/**...*/" />
+            <marker date="1484164804488" expanded="true" signature="693:1622" ph="{...}" />
+            <marker date="1484164804488" expanded="false" signature="736:745" ph="&lt;~&gt;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package300/OddEvenLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
