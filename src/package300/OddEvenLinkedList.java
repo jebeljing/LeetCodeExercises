@@ -67,5 +67,4 @@ public class OddEvenLinkedList {
         oddIter.next = evenHead.next;
         return oddHead.next;
     }
-    }
 }
