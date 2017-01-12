@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/Interval.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/FindRightInterval.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/BulbSwitcher.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/package300/OddEvenLinkedList.java" afterPath="$PROJECT_DIR$/src/package300/OddEvenLinkedList.java" />
     </list>
     <ignored path="LeetCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,14 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FindRightInterval.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package400/FindRightInterval.java">
+      <file leaf-file-name="BulbSwitcher.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package300/BulbSwitcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package0/IntegerToRoman.java" />
         <option value="$PROJECT_DIR$/src/package0/RomanToInteger.java" />
         <option value="$PROJECT_DIR$/src/package400/CanIWin.java" />
         <option value="$PROJECT_DIR$/src/package300/RangeSumQueryMutable.java" />
@@ -110,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/package300/OddEvenLinkedList.java" />
         <option value="$PROJECT_DIR$/src/base/Interval.java" />
         <option value="$PROJECT_DIR$/src/package400/FindRightInterval.java" />
+        <option value="$PROJECT_DIR$/src/package300/BulbSwitcher.java" />
       </list>
     </option>
   </component>
@@ -198,6 +194,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="package400" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCodeExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCodeExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="package300" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -885,14 +899,7 @@
       <workItem from="1484074903920" duration="3295000" />
       <workItem from="1484096826839" duration="252000" />
       <workItem from="1484161273438" duration="1923000" />
-      <workItem from="1484245516392" duration="1632000" />
-    </task>
-    <task id="LOCAL-00051" summary="167. Two Sum II -Input array is sorted">
-      <created>1481512572482</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1481512572483</updated>
+      <workItem from="1484245516392" duration="2276000" />
     </task>
     <task id="LOCAL-00052" summary="338. Counting Bits">
       <created>1481513728283</created>
@@ -1230,11 +1237,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484246414371</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="436. Find Right Interval.">
+      <created>1484254329699</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1484254329699</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92037000" />
+    <option name="totallyTimeSpent" value="92681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1279,7 +1293,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="332. Reconstruct Itinerary" />
     <MESSAGE value="310. Minimum Height Trees" />
     <MESSAGE value="451. Sort Characters by Frequency." />
     <MESSAGE value="442. Find All Duplicates in an Array" />
@@ -1304,7 +1317,8 @@
     <MESSAGE value="216. Combination Sum III" />
     <MESSAGE value="241. Different Ways to Add Parentheses." />
     <MESSAGE value="328. Odd Even Linked List" />
-    <option name="LAST_COMMIT_MESSAGE" value="328. Odd Even Linked List" />
+    <MESSAGE value="436. Find Right Interval." />
+    <option name="LAST_COMMIT_MESSAGE" value="436. Find Right Interval." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1337,13 +1351,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package100/SingleNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package300/RangeSumQueryMutable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -1743,11 +1750,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package400/FindRightInterval.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="493">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1484254321123" expanded="true" signature="28:69" ph="..." />
+            <marker date="1484254321123" expanded="true" signature="71:1420" ph="/**...*/" />
+            <marker date="1484254321123" expanded="true" signature="1511:2169" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package300/BulbSwitcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
