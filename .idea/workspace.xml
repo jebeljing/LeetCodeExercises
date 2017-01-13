@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/BulbSwitcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/CombinationSumIV.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BulbSwitcher.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package300/BulbSwitcher.java">
+      <file leaf-file-name="CombinationSumIV.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package300/CombinationSumIV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="102">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -55,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package0/RomanToInteger.java" />
         <option value="$PROJECT_DIR$/src/package400/CanIWin.java" />
         <option value="$PROJECT_DIR$/src/package300/RangeSumQueryMutable.java" />
         <option value="$PROJECT_DIR$/src/package300/RangeSumQuery2DImmutable.java" />
@@ -106,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/base/Interval.java" />
         <option value="$PROJECT_DIR$/src/package400/FindRightInterval.java" />
         <option value="$PROJECT_DIR$/src/package300/BulbSwitcher.java" />
+        <option value="$PROJECT_DIR$/src/package300/CombinationSumIV.java" />
       </list>
     </option>
   </component>
@@ -146,7 +146,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,8 +237,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -899,14 +899,8 @@
       <workItem from="1484074903920" duration="3295000" />
       <workItem from="1484096826839" duration="252000" />
       <workItem from="1484161273438" duration="1923000" />
-      <workItem from="1484245516392" duration="2276000" />
-    </task>
-    <task id="LOCAL-00052" summary="338. Counting Bits">
-      <created>1481513728283</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1481513728283</updated>
+      <workItem from="1484245516392" duration="2289000" />
+      <workItem from="1484342055811" duration="45000" />
     </task>
     <task id="LOCAL-00053" summary="406. Queue Reconstruction by Height">
       <created>1481594494601</created>
@@ -1244,11 +1238,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484254329699</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="319. Bulb Switcher">
+      <created>1484258117950</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1484258117950</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92681000" />
+    <option name="totallyTimeSpent" value="92739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1293,7 +1294,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="310. Minimum Height Trees" />
     <MESSAGE value="451. Sort Characters by Frequency." />
     <MESSAGE value="442. Find All Duplicates in an Array" />
     <MESSAGE value="347. Top K Frequent Elements" />
@@ -1318,7 +1318,8 @@
     <MESSAGE value="241. Different Ways to Add Parentheses." />
     <MESSAGE value="328. Odd Even Linked List" />
     <MESSAGE value="436. Find Right Interval." />
-    <option name="LAST_COMMIT_MESSAGE" value="436. Find Right Interval." />
+    <MESSAGE value="319. Bulb Switcher" />
+    <option name="LAST_COMMIT_MESSAGE" value="319. Bulb Switcher" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1351,13 +1352,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package300/RangeSumQueryMutable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="72" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package300/RangeSumQuery2DImmutable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1702,12 +1696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <marker date="1484163740841" expanded="true" signature="28:71" ph="..." />
-            <marker date="1484163740841" expanded="true" signature="73:452" ph="/**...*/" />
-            <marker date="1484163740841" expanded="true" signature="547:693" ph="{...}" />
-            <marker date="1484163740841" expanded="true" signature="798:1178" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1715,12 +1703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <marker date="1484164804488" expanded="true" signature="28:71" ph="..." />
-            <marker date="1484164804488" expanded="true" signature="73:590" ph="/**...*/" />
-            <marker date="1484164804488" expanded="true" signature="693:1622" ph="{...}" />
-            <marker date="1484164804488" expanded="false" signature="736:745" ph="&lt;~&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1762,8 +1744,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package300/BulbSwitcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="340">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <marker date="1484258113929" expanded="true" signature="21:741" ph="/**...*/" />
+            <marker date="1484258113929" expanded="true" signature="803:1260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package300/CombinationSumIV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
