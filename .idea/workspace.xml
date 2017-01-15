@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/SingleNumberII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/NonOverlappingIntervals.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -55,12 +55,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingleNumberII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SingleNumberII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package100/SingleNumberII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="225">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NonOverlappingIntervals.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package400/NonOverlappingIntervals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1333#1334#0" expanded="true" />
+                <element signature="e#1387#1388#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package100/MaximumProductSubarray.java" />
         <option value="$PROJECT_DIR$/src/package100/EvaluateReversePolishNotation.java" />
         <option value="$PROJECT_DIR$/src/package300/WaterAndJugProblem.java" />
         <option value="$PROJECT_DIR$/src/package200/AddAndSearchWordDataStructureDesign.java" />
@@ -136,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/package100/ConvertSortedArrayToBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/package300/DecodeString.java" />
         <option value="$PROJECT_DIR$/src/package100/SingleNumberII.java" />
+        <option value="$PROJECT_DIR$/src/package400/NonOverlappingIntervals.java" />
       </list>
     </option>
   </component>
@@ -207,6 +221,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="package400" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -896,14 +928,7 @@
       <workItem from="1484245516392" duration="2289000" />
       <workItem from="1484342055811" duration="45000" />
       <workItem from="1484365275481" duration="1902000" />
-      <workItem from="1484406670563" duration="207000" />
-    </task>
-    <task id="LOCAL-00055" summary="TrainTickets">
-      <created>1481696819686</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1481696819686</updated>
+      <workItem from="1484406670563" duration="455000" />
     </task>
     <task id="LOCAL-00056" summary="127. Word Ladder">
       <created>1481856896718</created>
@@ -1241,11 +1266,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484369722748</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="137. Single Number II.">
+      <created>1484444750758</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1484444750759</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94848000" />
+    <option name="totallyTimeSpent" value="95096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="620" y="23" width="1202" height="732" extended-state="0" />
@@ -1290,7 +1322,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="347. Top K Frequent Elements" />
     <MESSAGE value="382. Linked List Random Node" />
     <MESSAGE value="122. Best Time to Buy and Sell Stock II" />
     <MESSAGE value="445. Add Two Numbers II" />
@@ -1315,7 +1346,8 @@
     <MESSAGE value="319. Bulb Switcher" />
     <MESSAGE value="108. Convert Sorted Array to Binary Search Tree" />
     <MESSAGE value="394. Decode String." />
-    <option name="LAST_COMMIT_MESSAGE" value="394. Decode String." />
+    <MESSAGE value="137. Single Number II." />
+    <option name="LAST_COMMIT_MESSAGE" value="137. Single Number II." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1348,13 +1380,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package300/WaterAndJugProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package200/AddAndSearchWordDataStructureDesign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1517,6 +1542,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1629,6 +1657,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1707,9 +1736,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/SingleNumberII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="225">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package400/NonOverlappingIntervals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
