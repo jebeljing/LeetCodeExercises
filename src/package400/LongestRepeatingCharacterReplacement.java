@@ -43,4 +43,14 @@ public class LongestRepeatingCharacterReplacement {
         }
         return s.length()-start;
     }
+
+    /*
+    This solution is great, best so far. However, it requires a bit more explanation.
+
+Since we are only interested in the longest valid substring, our sliding windows need not shrink, even if a window may cover an invalid substring. We either grow the window by appending one char on the right, or shift the whole window to the right by one. And we only grow the window when the count of the new char exceeds the historical max count (from a previous window that covers a valid substring).
+
+That is, we do not need the accurate max count of the current window; we only care if the max count exceeds the historical max count; and that can only happen because of the new char.
+
+Here's my implementation that's a bit shorter
+     */
 }

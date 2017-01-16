@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/LongestRepeatingCharacterReplacement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/package400/LongestRepeatingCharacterReplacement.java" afterPath="$PROJECT_DIR$/src/package400/LongestRepeatingCharacterReplacement.java" />
     </list>
     <ignored path="LeetCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,8 +105,8 @@
       <file leaf-file-name="LongestRepeatingCharacterReplacement.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/package400/LongestRepeatingCharacterReplacement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="48" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="48" />
+            <state relative-caret-position="628">
+              <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -943,14 +943,7 @@
       <workItem from="1484245516392" duration="2289000" />
       <workItem from="1484342055811" duration="45000" />
       <workItem from="1484365275481" duration="1902000" />
-      <workItem from="1484406670563" duration="1364000" />
-    </task>
-    <task id="LOCAL-00059" summary="208. Implement Trie (Prefix Tree)">
-      <created>1482113607061</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1482113607061</updated>
+      <workItem from="1484406670563" duration="1392000" />
     </task>
     <task id="LOCAL-00060" summary="Refactoring package100 to package100 + package0">
       <created>1482199798691</created>
@@ -1288,11 +1281,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484530143173</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="424. Longest Repeating Character Replacement.">
+      <created>1484530488743</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1484530488743</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96005000" />
+    <option name="totallyTimeSpent" value="96033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="634" y="23" width="1202" height="732" extended-state="0" />
@@ -1337,7 +1337,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="173. Binary Search Tree Iterator" />
     <MESSAGE value="386. Lexicographical Numbers" />
     <MESSAGE value="357. Count Numbers with Unique Digits" />
     <MESSAGE value="384. Shuffle an Array" />
@@ -1362,7 +1361,8 @@
     <MESSAGE value="435. Non-overlapping Intervals." />
     <MESSAGE value="398. Random Pick Index." />
     <MESSAGE value="309. Best Time to Buy and Sell Stock with Cooldown" />
-    <option name="LAST_COMMIT_MESSAGE" value="309. Best Time to Buy and Sell Stock with Cooldown" />
+    <MESSAGE value="424. Longest Repeating Character Replacement." />
+    <option name="LAST_COMMIT_MESSAGE" value="424. Longest Repeating Character Replacement." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1779,8 +1779,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package400/LongestRepeatingCharacterReplacement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="48" />
+        <state relative-caret-position="628">
+          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
           <folding />
         </state>
       </provider>
