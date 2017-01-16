@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/BestTimeToBuyAndSellStockWithColldown.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package400/LongestRepeatingCharacterReplacement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -92,11 +92,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BestTimeToBuyAndSellStockWithColldown.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BestTimeToBuyAndSellStockWithColldown.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package300/BestTimeToBuyAndSellStockWithColldown.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestRepeatingCharacterReplacement.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package400/LongestRepeatingCharacterReplacement.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="53" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="53" />
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -122,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package200/AddAndSearchWordDataStructureDesign.java" />
         <option value="$PROJECT_DIR$/src/package300/DesignTwitter.java" />
         <option value="$PROJECT_DIR$/src/package100/CloneGraph.java" />
         <option value="$PROJECT_DIR$/src/base/UndirectedGraphNode.java" />
@@ -173,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/package400/NonOverlappingIntervals.java" />
         <option value="$PROJECT_DIR$/src/package300/RandomPickIndex.java" />
         <option value="$PROJECT_DIR$/src/package300/BestTimeToBuyAndSellStockWithColldown.java" />
+        <option value="$PROJECT_DIR$/src/package400/LongestRepeatingCharacterReplacement.java" />
       </list>
     </option>
   </component>
@@ -216,7 +226,56 @@
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="package400" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="PackagesPane" />
     </panes>
@@ -884,14 +943,7 @@
       <workItem from="1484245516392" duration="2289000" />
       <workItem from="1484342055811" duration="45000" />
       <workItem from="1484365275481" duration="1902000" />
-      <workItem from="1484406670563" duration="1115000" />
-    </task>
-    <task id="LOCAL-00058" summary="148. Sort List">
-      <created>1482111282474</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1482111282474</updated>
+      <workItem from="1484406670563" duration="1364000" />
     </task>
     <task id="LOCAL-00059" summary="208. Implement Trie (Prefix Tree)">
       <created>1482113607061</created>
@@ -1229,11 +1281,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484447050541</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="309. Best Time to Buy and Sell Stock with Cooldown">
+      <created>1484530143173</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1484530143173</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95756000" />
+    <option name="totallyTimeSpent" value="96005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="634" y="23" width="1202" height="732" extended-state="0" />
@@ -1278,7 +1337,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="445. Add Two Numbers II" />
     <MESSAGE value="173. Binary Search Tree Iterator" />
     <MESSAGE value="386. Lexicographical Numbers" />
     <MESSAGE value="357. Count Numbers with Unique Digits" />
@@ -1303,7 +1361,8 @@
     <MESSAGE value="137. Single Number II." />
     <MESSAGE value="435. Non-overlapping Intervals." />
     <MESSAGE value="398. Random Pick Index." />
-    <option name="LAST_COMMIT_MESSAGE" value="398. Random Pick Index." />
+    <MESSAGE value="309. Best Time to Buy and Sell Stock with Cooldown" />
+    <option name="LAST_COMMIT_MESSAGE" value="309. Best Time to Buy and Sell Stock with Cooldown" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1336,13 +1395,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/base/UndirectedGraphNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/CloneGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1719,8 +1771,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package300/BestTimeToBuyAndSellStockWithColldown.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package400/LongestRepeatingCharacterReplacement.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="53" />
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="48" />
           <folding />
         </state>
       </provider>
