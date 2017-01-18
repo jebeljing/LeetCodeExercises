@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="199. Binary Tree Right Side View.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/FindMinimumInRotatedSortedArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/EliminationGame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -26,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FindMinimumInRotatedSortedArray.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package100/FindMinimumInRotatedSortedArray.java">
+      <file leaf-file-name="EliminationGame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package300/EliminationGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="45" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="45" />
+            <state relative-caret-position="102">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -56,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package300/RangeSumQueryMutable.java" />
         <option value="$PROJECT_DIR$/src/package300/RangeSumQuery2DImmutable.java" />
         <option value="$PROJECT_DIR$/src/package100/MaximumProductSubarray.java" />
         <option value="$PROJECT_DIR$/src/package100/EvaluateReversePolishNotation.java" />
@@ -107,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/package300/BulbSwitcher.java" />
         <option value="$PROJECT_DIR$/src/package300/CombinationSumIV.java" />
         <option value="$PROJECT_DIR$/src/package100/FindMinimumInRotatedSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/package300/EliminationGame.java" />
       </list>
     </option>
   </component>
@@ -213,24 +212,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="package300" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCodeExercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCodeExercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="package100" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -920,14 +901,7 @@
       <workItem from="1484161273438" duration="1923000" />
       <workItem from="1484245516392" duration="2289000" />
       <workItem from="1484342055811" duration="45000" />
-      <workItem from="1484767664225" duration="812000" />
-    </task>
-    <task id="LOCAL-00054" summary="413. Arithmetic Slices">
-      <created>1481598397374</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1481598397374</updated>
+      <workItem from="1484767664225" duration="1486000" />
     </task>
     <task id="LOCAL-00055" summary="TrainTickets">
       <created>1481696819686</created>
@@ -1265,11 +1239,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484767738598</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="153. Find Minimum in Rotated Sorted Array.">
+      <created>1484769308954</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1484769308954</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93551000" />
+    <option name="totallyTimeSpent" value="94225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1314,7 +1295,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="442. Find All Duplicates in an Array" />
     <MESSAGE value="347. Top K Frequent Elements" />
     <MESSAGE value="382. Linked List Random Node" />
     <MESSAGE value="122. Best Time to Buy and Sell Stock II" />
@@ -1339,7 +1319,8 @@
     <MESSAGE value="436. Find Right Interval." />
     <MESSAGE value="319. Bulb Switcher" />
     <MESSAGE value="199. Binary Tree Right Side View." />
-    <option name="LAST_COMMIT_MESSAGE" value="199. Binary Tree Right Side View." />
+    <MESSAGE value="153. Find Minimum in Rotated Sorted Array." />
+    <option name="LAST_COMMIT_MESSAGE" value="153. Find Minimum in Rotated Sorted Array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1372,20 +1353,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package100/EvaluateReversePolishNotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package300/WaterAndJugProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package200/AddAndSearchWordDataStructureDesign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1785,8 +1752,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/FindMinimumInRotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="45" />
+        <state relative-caret-position="493">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <marker date="1484769300789" expanded="true" signature="21:336" ph="/**...*/" />
+            <marker date="1484769300789" expanded="true" signature="419:832" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package100/A132Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <marker date="1484074897641" expanded="true" signature="47:759" ph="/**...*/" />
+            <marker date="1484074897641" expanded="true" signature="4928:5426" ph="{...}" />
+            <marker date="1484074897641" expanded="true" signature="6910:7247" ph="{...}" />
+            <marker date="1484074897641" expanded="true" signature="7877:8352" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package300/EliminationGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
