@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package100/BinaryTreeRightSideView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/CombinationSumIV.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,14 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BinaryTreeRightSideView.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package100/BinaryTreeRightSideView.java">
+      <file leaf-file-name="CombinationSumIV.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package300/CombinationSumIV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,6 +55,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/package400/CanIWin.java" />
         <option value="$PROJECT_DIR$/src/package300/RangeSumQueryMutable.java" />
         <option value="$PROJECT_DIR$/src/package300/RangeSumQuery2DImmutable.java" />
         <option value="$PROJECT_DIR$/src/package100/MaximumProductSubarray.java" />
@@ -107,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/package400/FindRightInterval.java" />
         <option value="$PROJECT_DIR$/src/package300/BulbSwitcher.java" />
         <option value="$PROJECT_DIR$/src/package300/CombinationSumIV.java" />
-        <option value="$PROJECT_DIR$/src/package100/BinaryTreeRightSideView.java" />
       </list>
     </option>
   </component>
@@ -148,9 +146,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -216,24 +214,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="package300" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCodeExercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCodeExercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="package100" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -920,8 +900,14 @@
       <workItem from="1484096826839" duration="252000" />
       <workItem from="1484161273438" duration="1923000" />
       <workItem from="1484245516392" duration="2289000" />
-      <workItem from="1484342055811" duration="660000" />
-      <workItem from="1484767223502" duration="53000" />
+      <workItem from="1484342055811" duration="45000" />
+    </task>
+    <task id="LOCAL-00053" summary="406. Queue Reconstruction by Height">
+      <created>1481594494601</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1481594494601</updated>
     </task>
     <task id="LOCAL-00054" summary="413. Arithmetic Slices">
       <created>1481598397374</created>
@@ -1259,18 +1245,11 @@
       <option name="project" value="LOCAL" />
       <updated>1484258117950</updated>
     </task>
-    <task id="LOCAL-00102" summary="377. Combination Sum IV.">
-      <created>1484342106122</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1484342106123</updated>
-    </task>
-    <option name="localTasksCounter" value="103" />
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93407000" />
+    <option name="totallyTimeSpent" value="92739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1315,6 +1294,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="451. Sort Characters by Frequency." />
     <MESSAGE value="442. Find All Duplicates in an Array" />
     <MESSAGE value="347. Top K Frequent Elements" />
     <MESSAGE value="382. Linked List Random Node" />
@@ -1339,8 +1319,7 @@
     <MESSAGE value="328. Odd Even Linked List" />
     <MESSAGE value="436. Find Right Interval." />
     <MESSAGE value="319. Bulb Switcher" />
-    <MESSAGE value="377. Combination Sum IV." />
-    <option name="LAST_COMMIT_MESSAGE" value="377. Combination Sum IV." />
+    <option name="LAST_COMMIT_MESSAGE" value="319. Bulb Switcher" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1373,6 +1352,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/package300/RangeSumQuery2DImmutable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/package100/MaximumProductSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1556,6 +1542,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1570,6 +1559,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1577,6 +1569,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1584,6 +1577,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#909#910#0" expanded="false" />
+            <element signature="e#941#942#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1591,6 +1588,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1598,6 +1596,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1605,6 +1604,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package100/BinaryTreePreorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1619,6 +1625,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="26" column="144" selection-start-line="26" selection-start-column="144" selection-end-line="26" selection-end-column="144" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1626,6 +1633,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1654,6 +1662,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="39" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1661,6 +1670,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1484161269493" expanded="true" signature="28:68" ph="..." />
+            <marker date="1484161269493" expanded="true" signature="70:445" ph="/**...*/" />
+            <marker date="1484161269493" expanded="true" signature="535:1021" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1668,6 +1682,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <marker date="1484161526358" expanded="true" signature="28:74" ph="..." />
+            <marker date="1484161526358" expanded="true" signature="76:1136" ph="/**...*/" />
+            <marker date="1484161526358" expanded="true" signature="1238:1928" ph="{...}" />
+            <marker date="1484161526358" expanded="true" signature="1346:1422" ph="(Comparator) (a, b) → {" />
+            <marker date="1484161526358" expanded="true" signature="1519:1534" ph="}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1689,6 +1710,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+          <folding>
+            <marker date="1484254206751" expanded="true" signature="44:641" ph="/**...*/" />
+            <marker date="1484254206751" expanded="true" signature="723:1189" ph="{...}" />
+            <marker date="1484254206751" expanded="true" signature="1239:2051" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1708,6 +1734,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding>
+            <marker date="1484254321123" expanded="true" signature="28:69" ph="..." />
+            <marker date="1484254321123" expanded="true" signature="71:1420" ph="/**...*/" />
+            <marker date="1484254321123" expanded="true" signature="1511:2169" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1715,41 +1746,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <marker date="1484258113929" expanded="true" signature="21:741" ph="/**...*/" />
+            <marker date="1484258113929" expanded="true" signature="803:1260" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package300/CombinationSumIV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-          <folding>
-            <marker date="1484342095623" expanded="true" signature="47:697" ph="/**...*/" />
-            <marker date="1484342095623" expanded="true" signature="800:926" ph="{...}" />
-            <marker date="1484342095623" expanded="true" signature="975:1305" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package100/BinaryTreePreorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <marker date="1484074897645" expanded="false" signature="28:119" ph="..." />
-            <marker date="1484074897645" expanded="true" signature="121:427" ph="/**...*/" />
-            <marker date="1484074897645" expanded="true" signature="529:1561" ph="{...}" />
-            <marker date="1484074897645" expanded="true" signature="1624:1782" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package100/BinaryTreeRightSideView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
