@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/EliminationGame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package200/SearchA2DMatrixII.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EliminationGame.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package300/EliminationGame.java">
+      <file leaf-file-name="SearchA2DMatrixII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package200/SearchA2DMatrixII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="68">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -55,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package300/RangeSumQuery2DImmutable.java" />
         <option value="$PROJECT_DIR$/src/package100/MaximumProductSubarray.java" />
         <option value="$PROJECT_DIR$/src/package100/EvaluateReversePolishNotation.java" />
         <option value="$PROJECT_DIR$/src/package300/WaterAndJugProblem.java" />
@@ -106,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/package300/CombinationSumIV.java" />
         <option value="$PROJECT_DIR$/src/package100/FindMinimumInRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/package300/EliminationGame.java" />
+        <option value="$PROJECT_DIR$/src/package200/SearchA2DMatrixII.java" />
       </list>
     </option>
   </component>
@@ -212,6 +212,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="package300" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCodeExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCodeExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="package200" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -901,14 +919,7 @@
       <workItem from="1484161273438" duration="1923000" />
       <workItem from="1484245516392" duration="2289000" />
       <workItem from="1484342055811" duration="45000" />
-      <workItem from="1484767664225" duration="1486000" />
-    </task>
-    <task id="LOCAL-00055" summary="TrainTickets">
-      <created>1481696819686</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1481696819686</updated>
+      <workItem from="1484767664225" duration="2126000" />
     </task>
     <task id="LOCAL-00056" summary="127. Word Ladder">
       <created>1481856896718</created>
@@ -1246,11 +1257,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484769308954</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="390. Elimination Game">
+      <created>1484770704826</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1484770704826</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94225000" />
+    <option name="totallyTimeSpent" value="94865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1295,7 +1313,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="347. Top K Frequent Elements" />
     <MESSAGE value="382. Linked List Random Node" />
     <MESSAGE value="122. Best Time to Buy and Sell Stock II" />
     <MESSAGE value="445. Add Two Numbers II" />
@@ -1320,7 +1337,8 @@
     <MESSAGE value="319. Bulb Switcher" />
     <MESSAGE value="199. Binary Tree Right Side View." />
     <MESSAGE value="153. Find Minimum in Rotated Sorted Array." />
-    <option name="LAST_COMMIT_MESSAGE" value="153. Find Minimum in Rotated Sorted Array." />
+    <MESSAGE value="390. Elimination Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="390. Elimination Game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1353,13 +1371,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package200/AddAndSearchWordDataStructureDesign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package300/DesignTwitter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1776,8 +1787,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package300/EliminationGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="442">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding>
+            <marker date="1484770700748" expanded="true" signature="45:692" ph="/**...*/" />
+            <marker date="1484770700748" expanded="true" signature="2484:3000" ph="{...}" />
+            <marker date="1484770700748" expanded="true" signature="3055:3445" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package200/SearchA2DMatrixII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="30" />
           <folding />
         </state>
       </provider>
