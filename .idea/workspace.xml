@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package200/SearchA2DMatrixII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/IncreasingTripletSubsequence.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SearchA2DMatrixII.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package200/SearchA2DMatrixII.java">
+      <file leaf-file-name="IncreasingTripletSubsequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package300/IncreasingTripletSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="30" />
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -55,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package100/MaximumProductSubarray.java" />
         <option value="$PROJECT_DIR$/src/package100/EvaluateReversePolishNotation.java" />
         <option value="$PROJECT_DIR$/src/package300/WaterAndJugProblem.java" />
         <option value="$PROJECT_DIR$/src/package200/AddAndSearchWordDataStructureDesign.java" />
@@ -106,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/package100/FindMinimumInRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/package300/EliminationGame.java" />
         <option value="$PROJECT_DIR$/src/package200/SearchA2DMatrixII.java" />
+        <option value="$PROJECT_DIR$/src/package300/IncreasingTripletSubsequence.java" />
       </list>
     </option>
   </component>
@@ -919,14 +919,7 @@
       <workItem from="1484161273438" duration="1923000" />
       <workItem from="1484245516392" duration="2289000" />
       <workItem from="1484342055811" duration="45000" />
-      <workItem from="1484767664225" duration="2126000" />
-    </task>
-    <task id="LOCAL-00056" summary="127. Word Ladder">
-      <created>1481856896718</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1481856896719</updated>
+      <workItem from="1484767664225" duration="2776000" />
     </task>
     <task id="LOCAL-00057" summary="179. Largest Number">
       <created>1481858939294</created>
@@ -1264,11 +1257,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484770704826</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="240. Search a 2D Matrix II.">
+      <created>1484771552559</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1484771552559</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94865000" />
+    <option name="totallyTimeSpent" value="95515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1313,7 +1313,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="382. Linked List Random Node" />
     <MESSAGE value="122. Best Time to Buy and Sell Stock II" />
     <MESSAGE value="445. Add Two Numbers II" />
     <MESSAGE value="173. Binary Search Tree Iterator" />
@@ -1338,7 +1337,8 @@
     <MESSAGE value="199. Binary Tree Right Side View." />
     <MESSAGE value="153. Find Minimum in Rotated Sorted Array." />
     <MESSAGE value="390. Elimination Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="390. Elimination Game" />
+    <MESSAGE value="240. Search a 2D Matrix II." />
+    <option name="LAST_COMMIT_MESSAGE" value="240. Search a 2D Matrix II." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1371,17 +1371,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package300/DesignTwitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#3805#3806#0" expanded="false" />
-            <element signature="e#3861#3862#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/UndirectedGraphNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1799,8 +1788,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package200/SearchA2DMatrixII.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <marker date="1484771548292" expanded="true" signature="21:583" ph="/**...*/" />
+            <marker date="1484771548292" expanded="true" signature="677:1129" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package300/IncreasingTripletSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="30" />
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="39" />
           <folding />
         </state>
       </provider>
