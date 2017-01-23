@@ -56,6 +56,11 @@ class NestedIterator implements Iterator<Integer> {
     }
 
     @Override
+    public void remove() {
+
+    }
+
+    @Override
     public boolean hasNext() {
         return index < list.size();
     }

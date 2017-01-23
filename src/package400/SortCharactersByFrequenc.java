@@ -44,7 +44,7 @@ import java.util.*;
 public class SortCharactersByFrequenc {
 
     public String frequencySort(String s) {
-        int[] counts = new int[128];
+        final int[] counts = new int[128];
 
         Character[] chars =new Character[s.length()];
 

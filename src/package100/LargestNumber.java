@@ -35,9 +35,10 @@ public class LargestNumber {
         return sb.toString();
     }
 
-    public String largestNumber2(int[] num) {
-        String[] array = Arrays.stream(num).mapToObj(String::valueOf).toArray(String[]::new);
-        Arrays.sort(array, (String s1, String s2) -> (s2 + s1).compareTo(s1 + s2));
-        return Arrays.stream(array).reduce((x, y) -> x.equals("0") ? y : x + y).get();
-    }
+    //Java 8
+//    public String largestNumber2(int[] num) {
+//        String[] array = Arrays.stream(num).mapToObj(String::valueOf).toArray(String[]::new);
+//        Arrays.sort(array, (String s1, String s2) -> (s2 + s1).compareTo(s1 + s2));
+//        return Arrays.stream(array).reduce((x, y) -> x.equals("0") ? y : x + y).get();
+//    }
 }
