@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package300/LargestDivisibleSubset.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package200/BitwiseANDofNumbersRange.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,14 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LargestDivisibleSubset.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package300/LargestDivisibleSubset.java">
+      <file leaf-file-name="BitwiseANDofNumbersRange.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package200/BitwiseANDofNumbersRange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package300/LexicographicalNumbers.java" />
         <option value="$PROJECT_DIR$/src/package300/CountNumbersWithUniqueDigits.java" />
         <option value="$PROJECT_DIR$/src/package300/ShufflAnArray.java" />
         <option value="$PROJECT_DIR$/src/package300/IntegerBreak.java" />
@@ -108,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/package300/WiggleSubsequence.java" />
         <option value="$PROJECT_DIR$/src/package300/SuperPow.java" />
         <option value="$PROJECT_DIR$/src/package300/LargestDivisibleSubset.java" />
+        <option value="$PROJECT_DIR$/src/package200/BitwiseANDofNumbersRange.java" />
       </list>
     </option>
   </component>
@@ -913,14 +911,7 @@
       <workItem from="1485316396407" duration="265000" />
       <workItem from="1485455785511" duration="2696000" />
       <workItem from="1486412800627" duration="1284000" />
-      <workItem from="1486498375502" duration="2646000" />
-    </task>
-    <task id="LOCAL-00071" summary="5. Longest Palindromic Substring">
-      <created>1483584295262</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1483584295264</updated>
+      <workItem from="1486498375502" duration="3353000" />
     </task>
     <task id="LOCAL-00072" summary="306. Additive Number">
       <created>1483586469968</created>
@@ -1258,11 +1249,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486498970673</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="368. Largest Divisible subset">
+      <created>1486501155215</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1486501155215</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114363000" />
+    <option name="totallyTimeSpent" value="115070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1307,7 +1305,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="449. Serialize and Deserialize BST" />
     <MESSAGE value="452. Minimum Number of Arrows to Burst Balloons" />
     <MESSAGE value="216. Combination Sum III" />
     <MESSAGE value="241. Different Ways to Add Parentheses." />
@@ -1332,7 +1329,8 @@
     <MESSAGE value="117. Populating Next Right Pointers in Each Node II" />
     <MESSAGE value="376. Wiggle Subsequence." />
     <MESSAGE value="372. Super Pow" />
-    <option name="LAST_COMMIT_MESSAGE" value="372. Super Pow" />
+    <MESSAGE value="368. Largest Divisible subset" />
+    <option name="LAST_COMMIT_MESSAGE" value="368. Largest Divisible subset" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1371,13 +1369,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package300/IntegerBreak.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package300/IsSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1757,11 +1748,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package300/LargestDivisibleSubset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        <state relative-caret-position="514">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1486501130662" expanded="true" signature="28:96" ph="..." />
+            <marker date="1486501130662" expanded="true" signature="98:528" ph="/**...*/" />
+            <marker date="1486501130662" expanded="true" signature="628:1735" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package200/BitwiseANDofNumbersRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
