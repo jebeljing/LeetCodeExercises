@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51bd7ad6-65b6-4d90-8477-50ae9b53970f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package200/BitwiseANDofNumbersRange.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package200/HouseRobberII.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BitwiseANDofNumbersRange.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package200/BitwiseANDofNumbersRange.java">
+      <file leaf-file-name="HouseRobberII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/package200/HouseRobberII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="36" />
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -55,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/package300/CountNumbersWithUniqueDigits.java" />
         <option value="$PROJECT_DIR$/src/package300/ShufflAnArray.java" />
         <option value="$PROJECT_DIR$/src/package300/IntegerBreak.java" />
         <option value="$PROJECT_DIR$/src/package300/IsSubsequence.java" />
@@ -106,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/package300/SuperPow.java" />
         <option value="$PROJECT_DIR$/src/package300/LargestDivisibleSubset.java" />
         <option value="$PROJECT_DIR$/src/package200/BitwiseANDofNumbersRange.java" />
+        <option value="$PROJECT_DIR$/src/package200/HouseRobberII.java" />
       </list>
     </option>
   </component>
@@ -911,14 +911,7 @@
       <workItem from="1485316396407" duration="265000" />
       <workItem from="1485455785511" duration="2696000" />
       <workItem from="1486412800627" duration="1284000" />
-      <workItem from="1486498375502" duration="3353000" />
-    </task>
-    <task id="LOCAL-00072" summary="306. Additive Number">
-      <created>1483586469968</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1483586469968</updated>
+      <workItem from="1486498375502" duration="4277000" />
     </task>
     <task id="LOCAL-00073" summary="228. Summary Ranges">
       <created>1483588884733</created>
@@ -1256,11 +1249,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486501155215</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="201. Bitwise AND of Numbers Range">
+      <created>1486501908716</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1486501908716</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115070000" />
+    <option name="totallyTimeSpent" value="115994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1305,7 +1305,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="452. Minimum Number of Arrows to Burst Balloons" />
     <MESSAGE value="216. Combination Sum III" />
     <MESSAGE value="241. Different Ways to Add Parentheses." />
     <MESSAGE value="328. Odd Even Linked List" />
@@ -1330,7 +1329,8 @@
     <MESSAGE value="376. Wiggle Subsequence." />
     <MESSAGE value="372. Super Pow" />
     <MESSAGE value="368. Largest Divisible subset" />
-    <option name="LAST_COMMIT_MESSAGE" value="368. Largest Divisible subset" />
+    <MESSAGE value="201. Bitwise AND of Numbers Range" />
+    <option name="LAST_COMMIT_MESSAGE" value="201. Bitwise AND of Numbers Range" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1369,13 +1369,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package300/IsSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package200/MissingNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1760,8 +1753,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package200/BitwiseANDofNumbersRange.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <marker date="1486501904151" expanded="true" signature="21:278" ph="/**...*/" />
+            <marker date="1486501904151" expanded="true" signature="365:588" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package200/HouseRobberII.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="36" />
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>
